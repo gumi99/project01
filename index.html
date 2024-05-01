@@ -3,9 +3,342 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Bang-Olufsen</title>
+  <!--favicon-->
+  <link rel="icon" href="img/B_O_logo.svg">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="js/common.js"></script>
 </head>
 <body>
-  파일업로드 테스트
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <div class="logo-wrap">
+          <div class="logo"><a href="#">logo</a></div>
+          <div class="ham-wrap">
+            <div class="ham">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div><!--.ham-->
+            <p>MENU</p>
+          </div><!--.ham-wrap-->
+        </div><!--.logo-wrap-->
+
+        <nav>
+          <ul>
+            <li><a href="#">SPEAKER</a></li>
+            <li><a href="#">HEADPHONES</a></li>
+            <li><a href="#">TELEVISIONS</a></li>
+            <li><a href="#">SOUNDBARS</a></li>
+            <li><a href="#">FIND STORE</a></li>
+            <li><a href="#">SOCIAL LINKS</a></li>
+          </ul>
+        </nav>
+      </div><!--.inner-->
+    </header>
+
+    <section id="main-visual">
+      <div class="inner">
+        <div class="img-box">
+          <video src="img/main_video.mp4" autoplay loop muted playsinline></video>
+        </div><!--.img-box-->
+        <div class="main-txt">
+          <span class="a">Ærlig</span>
+          <span class="b">musikge</span>
+          <span class="c">ngivelse</span>
+        </div><!--.main-txt-->
+      </div><!--.inner-->
+    </section><!--#main-visual-->
+
+    <section id="news">
+      <div class="inner">
+        <div class="text"><h2>THE WORLD OF B & O</h2></div>
+        <div class="work">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="newsimg">
+                  <img src="img/news1.jpg" alt="이미지1">
+                </div><!--.newsimg-->
+                <div class="textBox">
+                  <p class="title">ART OF THE A9</p>
+                  <p class="sub-title">A canvas for your music</p>
+                </div><!--.textBox-->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="newsimg">
+                  <img src="img/news2.jpg" alt="이미지1">
+                </div><!--.newsimg-->
+                <div class="textBox">
+                  <p class="title">AT BANG & OLUFSEN OF MAYFAIR FLAGSHIP STORE
+                  </p>
+                  <p class="sub-title">Celebrating the launch of Mayfair Flagship</p>
+                </div><!--.textBox-->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="newsimg">
+                  <img src="img/news3.jpg" alt="이미지1">
+                </div><!--.newsimg-->
+                <div class="textBox">
+                  <p class="title">A MARVEL IN METAL</p>
+                  <p class="sub-title">Beosound A5 in Spaced Aluminium</p>
+                </div><!--.textBox-->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="newsimg">
+                  <img src="img/news4.webp" alt="이미지1">
+                </div><!--.newsimg-->
+                <div class="textBox">
+                  <p class="title">BEHIND THE SCENES</p>
+                  <p class="sub-title">Beolab 8</p>
+                </div><!--.textBox-->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="newsimg">
+                  <img src="img/news5.webp" alt="이미지1">
+                </div><!--.newsimg-->
+                <div class="textBox">
+                  <p class="title">BANG & OLUFSEN X ADER ERROR</p>
+                  <p class="sub-title">“Rhythm of Blue”</p>
+                </div><!--.textBox-->
+              </a>
+            </li>
+          </ul>
+        </div><!--.work-->
+      </div><!--.inner-->      
+    </section><!--#news-->
+
+    <section id="product">
+      <div class="inner">
+        <div class="product-text">
+          <h2>Bang & Olufsen x Scuderia Ferrari</h2>
+          <h3>Immersive experiences for Formula 1 fans</h3>
+          <p>After sharing an exciting Formula 1 season, 
+            we are proud to announce the renewal  of the
+            partnership with Scuderia Ferrari.</p>
+        </div><!--.product-text-->
+
+        <div class="swiper product-list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/Ferrari01.jpg" alt="상품이미지1">
+              </a>
+            </li><!--.swiper-slide-->
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/Ferrari02.jpg" alt="상품이미지1">
+              </a>
+            </li><!--.swiper-slide-->
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/Ferrari03.jpg" alt="상품이미지1">
+              </a>
+            </li><!--.swiper-slide-->
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/Ferrari04.jpg" alt="상품이미지1">
+              </a>
+            </li><!--.swiper-slide-->
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/Ferrari5.jpg" alt="상품이미지1">
+              </a>
+            </li><!--.swiper-slide-->
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/Ferrari6.jpg" alt="상품이미지1">
+              </a>
+            </li><!--.swiper-slide-->
+          </ul><!--.swiper-wrapper-->
+          <div class="swiper-button-next"><img src="img/icon_next.png" alt="다음"></div>
+          <div class="swiper-button-prev"><img src="img/icon_prev.png" alt="이전"></div>
+        </div><!--.swiper product-list-->
+      </div><!--.inner-->
+    </section><!--#product-->
+
+    <section id="ourstory">
+      <div class="inner">
+        <div class="text-wrap">
+          <p>BANG & OLUFSEN</p>
+          <h3>Superior craft since 1925</h3>
+          <a href="#" class="btn">Our story</a>
+        </div>
+        <a href="#"><img src="img/m_ourstory_img.jpg" alt="스토리이미지"></a>
+      </div><!--.inner-->
+    </section><!--#ourstory-->
+
+    <section id="find">
+      <div class="inner">
+          <img src="img/FindShop1.jpg" alt="매장이미지">
+        <div class="findtext">
+          <p>UP CLOSE AND PERSONAL</p>
+          <h2>Experience in store</h2>
+          <h4>Come by one of our stores to hear,  
+            see and feel Bang & Olufsen yourself.</h4>
+        </div><!--.findtext-->
+        <a href="#" class="btn">Find store</a>
+      </div><!--.inner-->
+    </section><!--.find-->
+
+    <section id="support">
+      <div class="inner">
+        <h2>BANG & OLUFSEN SUPPORT</h2>
+        <div class="item">
+          <ul>
+            <li class="itembox1">
+              <a href="#">
+                <img src="img/category01.png" alt="지원이미지1">
+                <p>SPEAKERS</p>
+              </a>
+            </li><!--.itembox1-->
+            <li class="itembox2">
+              <a href="#">
+                <img src="img/category02.png" alt="지원이미지2">
+                <p>HEADPHONES</p>
+              </a>
+            </li><!--.itembox2-->
+            <li class="itembox3">
+              <a href="#">
+                <img src="img/category03.png" alt="지원이미지3">
+                <p>TELEVISIONS</p>
+              </a>
+            </li><!--.itembox3-->
+            <li class="itembox4">
+              <a href="#">
+                <img src="img/category04.png" alt="지원이미지4">
+                <p>SOUNDBARS</p>
+              </a>
+            </li><!--.itembox4-->
+            <li class="itembox5">
+              <a href="#">
+                <img src="img/category05.png" alt="지원이미지5">
+                <p>SOUND SYSTEMS</p>
+              </a>
+            </li><!--.itembox5-->
+            <li class="itembox6">
+              <a href="#">
+                <img src="img/category06.png" alt="지원이미지6">
+                <p>CONTROL</p>
+              </a>
+            </li><!--.itembox6-->
+            <li class="itembox7">
+              <a href="#">
+                <img src="img/category07.png" alt="지원이미지7">
+                <p>B2B TOOL BOX</p>
+              </a>
+            </li><!--.itembox7-->
+            <li class="itembox8">
+              <a href="#">
+                <img src="img/category08.png" alt="지원이미지8">
+                <p>MULTIROOM</p>
+              </a>
+            </li><!--.itembox8-->
+          </ul>
+        </div><!--.item-->
+      </div><!--.inner-->
+    </section><!--#support-->
+
+    <section id="f-info">
+      <div class="inner">
+        <div class="f-menu">
+          <ul class="mgnb">
+            <li>
+              <p class="arr">CUSTOMER CARE
+                <span>
+                  <img src="img/icon_down.png" alt="더보기">
+                </span>
+              </p>
+              <ul class="depth2">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Service and Support</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Find Store</a></li>
+              </ul>
+            </li>
+            <li>
+              <p class="arr">OUR POLICIES
+                <span>
+                  <img src="img/icon_down.png" alt="더보기">
+                </span>
+              </p>
+              <ul class="depth2">
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Cookie Settings</a></li>
+                <li><a href="#">Cookie Settings</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Policies and terms</a></li>
+              </ul>
+            </li>
+            <li>
+              <p class="arr">OUR COMPANY
+                <span>
+                  <img src="img/icon_down.png" alt="더보기">
+                </span>
+              </p>
+              <ul class="depth2">
+                <li><a href="#">Corporate</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Partners & B2B</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Custom Integration</a></li>
+                <li><a href="#">Become a sales partner</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </li>
+            <li>
+              <p  class="arr">CHOOSE COUNTRY
+                <span>
+                  <img src="img/icon_down.png" alt="더보기">
+                </span></p>
+              <ul class="depth2">
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Français</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">日本語</a></li>
+              </ul>
+            </li>
+          </ul><!--.mgnb-->
+        </div><!--.f-menu-->
+      </div><!--.inner-->
+    </section><!--#f-info-->
+
+    <footer>
+      <div class="inner">
+        <p>CEO: Lee, Kyo-Hu, Jeon, Cheol-Won</p>
+        <p>Business Address:55, Pyeongchon-daero 212beon-gil, Dongan-gu, Anyang-si, Gyeonggi-do</p>
+        <p>Business Registration Number: 833-87-02544</p>
+        <p>Telecom Sales Number: 2023- AnyangDongan-0184</p>
+        <p>Customer Support Center: +82-2-2135-1380</p>
+        <p>Email: bno3011825@kolon.com</p>
+        <p>Hosting Provider: Microsoft Azure</p>
+        <p>© Bang & Olufsen 2024</p>
+      </div><!--.inner-->
+    </footer>
+
+    <a href="#" class="go-top">btn</a>
+  </div><!--#wrap-->
 </body>
 </html>
