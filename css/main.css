@@ -48,13 +48,13 @@ nav ul li:hover a{color: #fff;}
 #news .inner .newsimg img{width: 100%; height: auto; margin: 30px 0;}
 #news .inner .textBox p.title{font-size: 20px; font-weight: 500; line-height: 1.5;}
 
-#product{height:100vh; background-color: #000; position: relative;}
+#product{height:800px; background-color: #000; position: relative;}
 #product .inner{height: 100vh; padding: 30px;}
 #product .inner .product-text{ font-family: "Manuale", serif; color: #fff; white-space: normal;}
 #product .inner .product-text h2{width: 40%;}
 #product .inner .product-text h3{font-weight: 500; font-size: 18px; margin: 10px 0 30px 0 ;}
 #product .inner .product-text p{font-weight: 300; margin-bottom: 50px;}
-#product .swiper-slide{margin: 0 auto;}
+
 #product .swiper-slide img{width: 100%; height: 470px; object-fit: cover;}
 
 #product .swiper-button-next, .swiper-button-prev{color: transparent;}
@@ -68,7 +68,7 @@ nav ul li:hover a{color: #fff;}
 #ourstory .btn:hover{background-color: #000; color: #fff;}
 #ourstory img{width: 100%; height: 500px; object-fit: cover; margin-top: 150px;}
 
-#find{width: 100%;position: relative;}
+#find{width: 100%; height: 100%; position: relative;}
 #find .inner{ padding: 50px 0;}
 #find img{width: 100%; height: auto; object-fit: cover;}
 #find .findtext{ font-family: "Manuale", serif; position: absolute; top: 70px; left: 20px;}
@@ -188,7 +188,8 @@ footer .inner p:last-child{margin-top: 10px;}
 
   #news{height: 320vh;}
 
-  #product .inner{padding: 70px;}
+  #product{height: 800px;}
+  #product .inner{padding: 50px;}
 
   #ourstory{background: url(../img/ourstory.jpg) no-repeat center / 100% auto; position: relative;}
   #ourstory .inner .text-wrap{position: absolute; top: 300px; left: 50%; transform: translateX(-50%);}
