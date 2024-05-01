@@ -148,7 +148,7 @@ footer .inner p:last-child{margin-top: 10px;}
   #support .inner .item ul li img{position: absolute; top: 50%; left: 50%; transform: translate(-50% , -50%);}
 
   #f-info{background-color: #8C8C8C;}
-  #f-info .inner{padding: 70px 70px;}
+  #f-info .inner{padding: 70px 50px;}
   #f-info .inner .f-menu .mgnb{display: flex; justify-content: space-between; white-space: nowrap;}
   #f-info .inner .f-menu .mgnb > li{padding: 10px;}
   #f-info .inner .f-menu img{display: none;}
