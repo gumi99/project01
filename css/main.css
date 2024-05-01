@@ -83,7 +83,7 @@ nav ul li:hover a{color: #fff;}
 #support .inner .item ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
 #support .inner .item ul li{width: calc(95% / 2 ); height:calc(90% / 4); background-color: #E8DCB2; text-align: center; padding: 10px; margin:5px auto;} 
 #support .inner .item ul li img{width: 100%; height: auto;}
-#support .inner .item ul li p{white-space: nowrap;}
+#support .inner .item ul li p{white-space: nowrap; font-size: 14px;}
 
 #f-info{font-family: "Manuale", serif; height: 100%; width: 100%; background-color: #352E2E; margin-top: 50px;}
 #f-info .inner{padding: 50px;}
