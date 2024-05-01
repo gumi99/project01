@@ -124,6 +124,7 @@ footer .inner p:last-child{margin-top: 10px;}
   .work ul li a .newsimg img{width: 100%; margin: 0;}
   .work ul li a .textBox{position: absolute; bottom: 10%; left: 10%; text-align: left; color: #fff; text-shadow: 2px 2px 10px rgba(0 , 0, 0, 0.5);}
 
+  #product{height:900px}
   #product .inner{padding: 50px;}
   #product .inner .product-text h2{font-size: 24px; width: auto;}
   #product .inner .product-text h3{margin: 10px 0 20px 0;}
@@ -188,8 +189,7 @@ footer .inner p:last-child{margin-top: 10px;}
 
   #news{height: 320vh;}
 
-  #product{height: 800px;}
-  #product .inner{padding: 50px;}
+  #product .inner{padding: 70px;}
 
   #ourstory{background: url(../img/ourstory.jpg) no-repeat center / 100% auto; position: relative;}
   #ourstory .inner .text-wrap{position: absolute; top: 300px; left: 50%; transform: translateX(-50%);}
