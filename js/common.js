@@ -65,21 +65,22 @@ $(document).ready(function(){//시작
   });
 });//끝
 
-$(document).ready(function(){
+$(document).ready(function(){//시작
 
   $(".mgnb > li").click(function(){
 
     if($(window).width() < 767){
       if($(this).children(".depth2").css("display")=="block"){
       $(this).children(".depth2").slideUp();
-      $(this).children(".arr").find("span").stop().removeClass("move");
+      $(this).children(".arr").find("span").removeClass("move");
     }else{
       $(".depth2").stop().slideUp();
       $(this).children(".depth2").slideDown();
-      $(this).children(".arr").find("span").stop().addClass("move");
+      $(".arr span").removeClass("move");
+      $(this).children(".arr").find("span").addClass("move");
     };
     }
     
   });
-});
+});//끝
   
