@@ -12,5 +12,3 @@ a{text-decoration: none; color: #000;}
 img{vertical-align: top;}
 ul,ol{list-style:none;}
 input, select{vertical-align: top; outline: none;}
-
-.hidden{font-size: 0; color: transparent;}
