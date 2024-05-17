@@ -117,7 +117,7 @@ footer .inner p:last-child{margin-top: 10px;}
   #news .text:hover h2{ animation: fadein 3s backwards ;}
   #news .text h2{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 50px;} 
 
-  .work{height: 100vh; border: 1px solid red; background-color: #E8DCB2;}
+  .work{height: 100vh; background-color: #E8DCB2;}
   .work ul{display: flex; padding: 3% 30%;}
   .work ul li{width: 700px; padding: 100px; flex-shrink: 0!important;}
   .work ul li a{display: block; width: 100%; position: relative;}

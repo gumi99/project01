@@ -19,7 +19,7 @@ $(document).ready(function(){//시작
       scrub: 1,
       pin: true,
       anticipatePin: 1,
-      markers: true
+      markers: false
   });
 });//끝
 
@@ -41,7 +41,7 @@ $(document).ready(function(){//시작
           scrub: 1,
           strat: 'center center',
           end: '+=1000 top', 
-          markers: true
+          markers: false
         }
       })
     }
